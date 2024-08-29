@@ -1,5 +1,4 @@
 import pytest
-import requests
 from weather_forecast.api_caller import fetch_temperature_data
 from weather_forecast.models import DailyTemperatureData, RequestFailedError
 
