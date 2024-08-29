@@ -16,7 +16,7 @@ class DailyTemperatureData:
         self.date = date
 
     def __eq__(self, value: object) -> bool:
-        if value is DailyTemperatureData:
+        if isinstance(value, DailyTemperatureData):
             return (
                 value.temperature_max == self.temperature_max
                 and value.temperature_min == self.temperature_min
