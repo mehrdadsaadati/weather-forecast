@@ -10,6 +10,8 @@ python = "^3.11"
 requests = "^2.32.3"
 pytest = "^8.3.2"
 pytest-mock = "^3.14.0"
+click = "^8.1.7"
+plotext = "^5.2.8"
 
 
 [build-system]
@@ -17,4 +19,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-forecast = "forecast.cli:main"
+forecast = "weather_forecast.cli:get_temperature"
