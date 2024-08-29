@@ -29,7 +29,7 @@ def _plot_samples(samples: List[DailyTemperatureData], past: int):
     plt.simple_multiple_bar(
         dates,
         [min_temps, max_temps],
-        width=100,
+        width=50,
         labels=["Min Temp", "Max Temp"],
         title="Min and Max Temperature",
     )
