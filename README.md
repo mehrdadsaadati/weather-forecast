@@ -1,10 +1,10 @@
 # weather-forecast
 
-A simple CLI app to fetch temperature forecast from [open-meteo.com](Open-meteo). Can display data as table or plot inside console.
+A simple CLI app to fetch temperature forecast from [open-meteo](https://open-meteo.com). Can display data as table or plot inside console.
 
 ## What does it do?
 
-This CLI app fetches temperature data from [open-meteo.com](Open-meteo) based on user passed location and presents it as table or plot.
+This CLI app fetches temperature data from [open-meteo](https://open-meteo.com) based on user passed location and presents it as table or plot.
 
 ## How to use?
 
