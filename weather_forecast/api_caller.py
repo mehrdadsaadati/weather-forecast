@@ -26,7 +26,6 @@ def fetch_temperature_data(
         if response.status_code == 200:
             samples = []
             data = response.json()
-            print(data)
             for i in range(past_days + forecast_days):
                 date = data["daily"]["time"][i]
                 min_temp = data["daily"]["apparent_temperature_min"][i]
