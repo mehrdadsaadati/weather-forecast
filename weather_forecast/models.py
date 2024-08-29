@@ -24,3 +24,9 @@ class DailyTemperatureData:
             )
 
         return False
+
+
+class RequestFailedError(Exception):
+    """Base class for all request failed exceptions"""
+
+    pass
